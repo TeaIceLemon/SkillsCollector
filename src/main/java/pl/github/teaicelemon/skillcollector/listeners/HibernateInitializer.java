@@ -15,7 +15,8 @@ import java.util.logging.Logger;
 
 @WebListener
 public class HibernateInitializer implements ServletContextListener {
-    private Logger logger = Logger.getGlobal();
+    public static final String SESSION_FACTORY = "session_factory";
+    private Logger logger = Logger.getLogger(HibernateInitializer.class.getName());
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
@@ -23,12 +24,12 @@ public class HibernateInitializer implements ServletContextListener {
                 Configuration configuration = new Configuration();
 
                 Properties hbnProperties = new Properties();
-                hbnProperties.put(Environment.DRIVER, "com.mysql.cjdbc.Driver");
-                hbnProperties.put(Environment.URL, "jdbc:mysql://localhost:3306/skills_collector?useSSL=false&serverTimezone=UTC");
+                hbnProperties.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
+                hbnProperties.put(Environment.URL, "jdbc:mysql://localhost:3306/skillscollector?useSSL=false&serverTimezone=UTC");
                 // Nazwę użytkownika dostosuj do swojej instalacji MySQL
-                hbnProperties.put(Environment.USER, "Company_admin");
+                hbnProperties.put(Environment.USER, "root");
                 // Hasło użytkownika dostosuj do swojej instalacji MySQL
-                hbnProperties.put(Environment.PASS, "Qwerty1234");
+                hbnProperties.put(Environment.PASS, "root");
                 hbnProperties.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
                 hbnProperties.put(Environment.SHOW_SQL, "true");
                 hbnProperties.put(Environment.FORMAT_SQL, "true");
@@ -47,7 +48,7 @@ public class HibernateInitializer implements ServletContextListener {
                 ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                         .applySettings(configuration.getProperties()).build();
                 SessionFactory sessionFactory = configuration.buildSessionFactory(serviceRegistry);
-                sce.getServletContext().setAttribute("session_factory", sessionFactory);
+                sce.getServletContext().setAttribute(SESSION_FACTORY, sessionFactory);
             } catch (Exception e) {
                 logger.log(Level.SEVERE, "Błąd konfiguracji Hibernate!", e);
             }
