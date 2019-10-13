@@ -7,15 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3837eeb4-a379-40e2-bff8-4240cdbdc52a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/skillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/sourceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/BaseDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillsCollector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SkillsCollector.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/skillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SkillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/sourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SourceDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -164,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570952582452</updated>
       <workItem from="1570952584724" duration="9882000" />
-      <workItem from="1570966431159" duration="1455000" />
+      <workItem from="1570966431159" duration="7619000" />
     </task>
     <servers />
   </component>

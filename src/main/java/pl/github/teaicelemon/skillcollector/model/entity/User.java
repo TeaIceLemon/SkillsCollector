@@ -11,11 +11,11 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name = "first_name")
-    private String fistName;
+    private String fistname;
     @Column(name = "last_name")
-    private String lastName;
+    private String lastname;
     @Column(name = "username", nullable = false, unique = true)
-    private String userName;
+    private String username;
     @Column(name = "password",nullable = false)
     private String password;
     @ManyToMany
@@ -34,28 +34,28 @@ public class User {
         this.id = id;
     }
 
-    public String getFistName() {
-        return fistName;
+    public String getFistname() {
+        return fistname;
     }
 
-    public void setFistName(String fistName) {
-        this.fistName = fistName;
+    public void setFistname(String fistName) {
+        this.fistname = fistName;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastname(String lastName) {
+        this.lastname = lastName;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String userName) {
+        this.username = userName;
     }
 
     public String getPassword() {
@@ -80,25 +80,25 @@ public class User {
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
         return id.equals(user.id) &&
-                Objects.equals(fistName, user.fistName) &&
-                Objects.equals(lastName, user.lastName) &&
-                userName.equals(user.userName) &&
+                Objects.equals(fistname, user.fistname) &&
+                Objects.equals(lastname, user.lastname) &&
+                username.equals(user.username) &&
                 password.equals(user.password) &&
                 Objects.equals(sourceList, user.sourceList);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, fistName, lastName, userName, password, sourceList);
+        return Objects.hash(id, fistname, lastname, username, password, sourceList);
     }
 
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", fistName='" + fistName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", userName='" + userName + '\'' +
+                ", fistName='" + fistname + '\'' +
+                ", lastName='" + lastname + '\'' +
+                ", userName='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", sourceList=" + sourceList +
                 '}';
