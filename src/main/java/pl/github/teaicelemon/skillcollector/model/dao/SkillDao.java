@@ -29,6 +29,7 @@ public class SkillDao extends BaseDao {
     }
     public List<Skill> getAllByName(String name){
         return super.produceInTransaction(session -> session.createQuery("SELECT s FROM Skill s WHERE s.name = :name", Skill.class)
+                .setParameter("name", name)
                 .getResultList()
         );
     }

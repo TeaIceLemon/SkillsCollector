@@ -22,8 +22,13 @@ public class SourceDao extends BaseDao {
         super.executeInTransaction(session -> session.delete(source));
     }
     public List<Source> getAll(){
-        return super.produceInTransaction(session -> session.createQuery("SELECT s FROM Source")
+        return super.produceInTransaction(session -> session.createQuery("SELECT s FROM Source s")
                 .getResultList());
+    }
+    public List<Source> getAllByName(String name){
+        return super.produceInTransaction(session -> session.createQuery("SELECT s FROM Source s WHERE s.name = :name"))
+                .setParameter("name", name)
+                .getResultList();
     }
 
 }

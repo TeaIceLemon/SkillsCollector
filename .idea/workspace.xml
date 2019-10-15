@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3837eeb4-a379-40e2-bff8-4240cdbdc52a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/filters/EncodingFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillsCollector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SkillsCollector.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/skillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SkillDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/model/sourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SkillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SkillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SourceDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,6 +160,9 @@
       <updated>1570952582452</updated>
       <workItem from="1570952584724" duration="9882000" />
       <workItem from="1570966431159" duration="7619000" />
+      <workItem from="1570975008328" duration="64000" />
+      <workItem from="1571075584464" duration="2049000" />
+      <workItem from="1571153705910" duration="1311000" />
     </task>
     <servers />
   </component>
