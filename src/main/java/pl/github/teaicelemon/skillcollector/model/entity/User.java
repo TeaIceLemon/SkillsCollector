@@ -3,6 +3,7 @@ package pl.github.teaicelemon.skillcollector.model.entity;
 import javax.persistence.*;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -21,10 +22,10 @@ public class User {
     @ManyToMany
     @JoinTable(
             name = "users_known_sources",
-            joinColumns = @JoinColumn(name = "user_id"  ),
+            joinColumns = @JoinColumn(name = "users_id"  ),
             inverseJoinColumns = @JoinColumn(name = "sources_id")
     )
-    private List<Source> sourceList;
+    private Set<Source> sourceList;
 
     public Long getId() {
         return id;
@@ -66,11 +67,11 @@ public class User {
         this.password = password;
     }
 
-    public List<Source> getSourceList() {
+    public Set<Source> getSourceList() {
         return sourceList;
     }
 
-    public void setSourceList(List<Source> sourceList) {
+    public void setSourceList(Set<Source> sourceList) {
         this.sourceList = sourceList;
     }
 

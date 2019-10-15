@@ -7,10 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3837eeb4-a379-40e2-bff8-4240cdbdc52a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/filters/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmented/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmented/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SkillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SkillDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/SourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/model/model/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/model/model/skillDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/model/model/sourceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/listeners/HibernateInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/model/model/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/model/model/skillDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/model/model/sourceDao.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -61,6 +77,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Piotrek\Desktop\Programming\SkillsCollector\src\main\webapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +183,7 @@
       <workItem from="1570966431159" duration="7619000" />
       <workItem from="1570975008328" duration="64000" />
       <workItem from="1571075584464" duration="2049000" />
-      <workItem from="1571153705910" duration="1311000" />
+      <workItem from="1571153705910" duration="6322000" />
     </task>
     <servers />
   </component>

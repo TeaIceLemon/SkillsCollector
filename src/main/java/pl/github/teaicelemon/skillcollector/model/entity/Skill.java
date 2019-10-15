@@ -37,13 +37,6 @@ public class Skill {
         this.name = name;
     }
 
-    public List<Source> getSourceList() {
-        return sourceList;
-    }
-
-    public void setSourceList(List<Source> sourceList) {
-        this.sourceList = sourceList;
-    }
 
     @Override
     public boolean equals(Object o) {
