@@ -61,7 +61,3 @@ public class UserDao extends BaseDao {
     }
 }
 
-//        List<User> users = session.createQuery("SELECT u FROM User u", User.class)
-//        .getResultList();
-//        users.forEach(user -> {
-//        Hibernate.initialize(user.getSourceList());

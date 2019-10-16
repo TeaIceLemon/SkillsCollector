@@ -10,6 +10,6 @@
 <%@ page isELIgnored="false" %>
 <footer>
     <div>
-        <span> Author Piotr Wieczorek</span>$nbsp; <span> Time : ${LocalDate.now()}</span>
+        <span> Author: Piotr Wieczorek  </span>  <span> Time : ${LocalDate.now()}</span>
     </div>
 </footer>
