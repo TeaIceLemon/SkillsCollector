@@ -7,18 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3837eeb4-a379-40e2-bff8-4240cdbdc52a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmented/errorUserPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmented/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmented/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/model/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/views/fragmented/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/views/fragmented/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/skills-collector/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/views/register.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +177,9 @@
       <workItem from="1571153705910" duration="8835000" />
       <workItem from="1571170705934" duration="3332000" />
       <workItem from="1571174679551" duration="1839000" />
-      <workItem from="1571255846325" duration="3289000" />
+      <workItem from="1571255846325" duration="3754000" />
+      <workItem from="1571264945300" duration="177000" />
+      <workItem from="1571340318691" duration="6169000" />
     </task>
     <servers />
   </component>

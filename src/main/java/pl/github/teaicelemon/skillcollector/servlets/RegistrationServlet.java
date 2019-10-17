@@ -37,28 +37,17 @@ public class RegistrationServlet extends HttpServlet {
         String password = req.getParameter("password");
         String firstName = req.getParameter("firstname");
         String lastName = req.getParameter("lastname");
-        User user = new User(userName, password);
-        user.setFistname(firstName);
-        user.setLastname(lastName);
         // Checking if User Name is already taken
         if(userDao.isUsernameAvailable(userName)){
+            User user = new User(userName, password);
+            user.setFistname(firstName);
+            user.setLastname(lastName);
             userDao.save(user);
             resp.sendRedirect("/login");
         }else{
-//            req.getRequestDispatcher("WEB-INF/views/fragmented/errorPageUser.jsp").include(req,resp);
-            resp.getWriter().println(errorPage());
-
-            resp.sendRedirect("/register");
+            req.setAttribute("error" , "Username is already taken");
+            System.out.println("setting error attribute : true");
+            req.getRequestDispatcher("WEB-INF/views/register.jsp").forward(req,resp);
         }
-    }
-    private String errorPage(){
-        StringBuilder sB = new StringBuilder();
-        sB.append("<html>")
-                .append("<head>")
-                .append("<p> Username is taken")
-                .append("</head>")
-                .append("</html>");
-
-        return sB.toString();
     }
 }
