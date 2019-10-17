@@ -39,7 +39,9 @@ public class RegistrationServlet extends HttpServlet {
         String lastName = req.getParameter("lastname");
         // Checking if User Name is already taken
         if(userDao.isUsernameAvailable(userName)){
-            User user = new User(userName, password);
+            User user = new User();
+            user.setUsername(userName);
+            user.setPassword(password);
             user.setFistname(firstName);
             user.setLastname(lastName);
             userDao.save(user);
@@ -48,6 +50,7 @@ public class RegistrationServlet extends HttpServlet {
             req.setAttribute("error" , "Username is already taken");
             System.out.println("setting error attribute : true");
             req.getRequestDispatcher("WEB-INF/views/register.jsp").forward(req,resp);
+            return;
         }
     }
 }
