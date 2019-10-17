@@ -5,6 +5,7 @@
   Time: 9:39 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 <html>
@@ -15,7 +16,7 @@
 <body>
 <h1> Sign in </h1>
 <div>
-    <form method="post" action="=/login">
+    <form method="post" action="/login">
         <fieldset>
             <span>
                 <div>
@@ -28,6 +29,14 @@
                 </div>
             </span>
         </fieldset>
+        <p>
+            <input type="submit" value="SAVE"/> <input type="reset" value="RESET"/>
+        </p>
+        <c:if test="${error != null}">
+            <p>
+                ${error}
+            </p>
+        </c:if>
     </form>
 </div>
 </body>
