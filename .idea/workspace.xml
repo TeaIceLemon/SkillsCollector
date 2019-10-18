@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3837eeb4-a379-40e2-bff8-4240cdbdc52a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/filters/AuthorizationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/skills-collector/WEB-INF/classes/pl/github/teaicelemon/skillcollector/servlets/RegistrationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,7 +175,8 @@
       <workItem from="1571255846325" duration="3754000" />
       <workItem from="1571264945300" duration="177000" />
       <workItem from="1571340318691" duration="6929000" />
-      <workItem from="1571348295726" duration="2963000" />
+      <workItem from="1571348295726" duration="3405000" />
+      <workItem from="1571426929311" duration="1976000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 <html>
+<jsp:include page="WEB-INF/views/fragmented/header.jsp"/>
 <body>
-<h2>Hello World!</h2>
 </body>
+<jsp:include page="WEB-INF/views/fragmented/footer.jsp"/>
 </html>
